@@ -34,7 +34,8 @@ import {createDrawerNavigator} from '@react-navigation/drawer';
 function ToDoScreen() {
   return (
     <View>
-      <Text>ToDo page</Text>
+      <Text>To-Do List page</Text>
+      <Text>Is from dev</Text>
     </View>
   );
 }
