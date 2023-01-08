@@ -31,26 +31,26 @@ import {
 import {NavigationContainer} from '@react-navigation/native';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 
-function HomeScreen() {
+function ToDoScreen() {
   return (
     <View>
-      <Text>Home page</Text>
+      <Text>ToDo page</Text>
     </View>
   );
 }
 
-function NotificationsScreen() {
+function NotesScreen() {
   return (
     <View>
-      <Text>Notifications Page</Text>
+      <Text>Notes Page</Text>
     </View>
   );
 }
 
-function AboutScreen() {
+function MotivationalScreen() {
   return (
     <View>
-      <Text>About Page</Text>
+      <Text>Motivational Page</Text>
     </View>
   );
 }
@@ -60,9 +60,9 @@ const App = () => {
   return (
     <NavigationContainer>
       <Drawer.Navigator initialRouteName="Home">
-        <Drawer.Screen name="Home" component={HomeScreen} />
-        <Drawer.Screen name="Notifications" component={NotificationsScreen} />
-        <Drawer.Screen name="About" component={AboutScreen} />
+        <Drawer.Screen name="To-Do List" component={ToDoScreen} />
+        <Drawer.Screen name="Notes" component={NotesScreen} />
+        <Drawer.Screen name="Motivational" component={MotivationalScreen} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
