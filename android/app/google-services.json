@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "184645552170",
+    "project_id": "productivity-mob",
+    "storage_bucket": "productivity-mob.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184645552170:android:45124bdf198be78cd61b53",
+        "android_client_info": {
+          "package_name": "com.productivity_mob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184645552170-m50f1u4qvcanqn2i5bsbsnd3idais7fs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.productivity_mob",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "184645552170-gcaoffdbvpuv932ebp6386g8ivo1fb9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABmnwzUqZFVtMe_Jolz1KZkGnkhQf_8kM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184645552170-gcaoffdbvpuv932ebp6386g8ivo1fb9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
